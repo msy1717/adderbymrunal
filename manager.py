@@ -21,15 +21,23 @@ except ImportError:
     os.system('pip install requests')
 
 def banner():
-    import random
+
     # fancy logo
+
+import random
+
     b = [
-    '   _____             __',
-    '  /  _  \    _______/  |_____________',
-    ' /  /_\  \  /  ___/\   __\_  __ \__  \\',
-    '/    |    \ \___ \  |  |  |  | \// __ \_',
-    '\____|__  /____  >  |__|  |__|  (____   /',
-    '        \/     \/                     \/'
+
+'__                                   _'
+
+'|  \/  |_  _   _ _      _| |'
+
+'| |\/| | '__| |  |   | '_ \ /  _ `  | |'
+
+'| |  | | |  |  |_| |  |  | |     (_ |   | |'
+
+'|_|  |_|_|   \__,_|_| |_|\__ , _|_|''
+
     ]
     for char in b:
         print(f'{random.choice(colors)}{char}{n}')
